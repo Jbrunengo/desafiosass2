@@ -1,0 +1,27 @@
+section{
+    @include flex(column, center, center);
+    p{font-size: $small;
+    font-family: $font_p;
+    text-align: justify;
+    }
+
+    h1{background-color: $fondotitulo;
+        font: $font_color;
+        font-family: $font_title;
+        font-size: $medium;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    }    
+    .pasto_gif {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        img{
+            width: 150px;
+            height: auto;
+            }       
+    
+}

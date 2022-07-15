@@ -1,0 +1,39 @@
+footer{
+    ul{
+    @include flex (row-reverse, center, space-around);
+    border-top: solid green 1px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    }
+
+.instagram li{
+    @include flex (column, center, center);
+    align-items: center;
+    img{
+        padding: 3px;
+        }
+    }
+
+
+.whatsapp li{
+    @include flex (column, center, center);
+    align-items: center;
+    img{
+        height: 30px;
+        width: 30px;
+        padding: 3px
+        }
+    }
+.mail{
+    @include flex (column, center, center);
+    align-items: center;
+    img{
+        height: 30px;
+        width: 30px;
+        padding: 3px;
+        }
+    }
+
+}
